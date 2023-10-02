@@ -14,7 +14,7 @@ app.get('/:DDMMYY', (req, res) => {
 
     const responseObject = {
       date: currentDate,
-      login: 'zdarya', 
+      login: 'zuevadi', 
     };
 
     res.setHeader('Content-Type', 'application/json');
